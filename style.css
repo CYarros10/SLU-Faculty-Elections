@@ -1,0 +1,712 @@
+/******************* Elements ************************/
+
+body {
+	/*background-color: #B82121;*/
+	min-width: 925px;
+	color: #333333;
+	//font-family: "Trebuchet MS","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Tahoma,sans-serif;
+	font-size: small;
+	background: #a90329; /* Old browsers */
+	background: -moz-linear-gradient(left,  #a90329 0%, #870009 0%, #B82121 50%, #870009 100%); /* FF3.6+ */
+	background: linear-gradient(to right,  #a90329 0%,#870009 0%,#B82121 50%,#870009 100%); /* W3C */
+}
+
+h1 {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 500;
+    line-height: 51px;
+    font-size: 46px;
+    text-transform: uppercase;
+    margin: 0 0 23px 0;
+    }
+h2 {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    	text-align: left;
+	border-bottom: solid #57332D 2px;
+	color: #57332D;
+	font-size:21px;
+	margin-top: 15px;
+	   text-transform: uppercase;
+
+    }
+
+h3, caption {
+   font-family: 'PT Serif', serif;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 23px;
+    background-color: rgba(87,51,45,0.15);
+    padding:10px;
+}
+
+p, li, select, input, a, tr, th, td, label {
+    font-family: 'PT Serif', serif;
+    margin: 0 0 10px 0;
+    }
+
+a {
+	color: white;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.button {
+        background-color: #57332D;
+        color: white;
+        font-size: 14px;
+        text-decoration: none;
+        cursor: pointer;
+        border: solid 1px #57332D;
+        padding: 2px;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+}
+
+.button:hover {
+        opacity: 0.7;
+    }
+
+
+/******************* Header ************************/
+
+#header {
+	width:100%;
+	position:fixed;
+	top:0;
+	left:0;
+	height: 50px;
+	background: #e9e1d5;
+	box-shadow: 1px 1px 6px 0px #2c2c2c;
+	margin-bottom:100px;
+}
+
+#header h1 {
+	margin: 0px;
+	padding-top: 5px;
+	padding-left: 10px;
+	text-align: left;
+	font-size: 30px;
+	color: #57332D;
+	float:left;
+	clear:left;
+}
+
+
+#header a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+#header form {
+	margin-top:10px;
+	margin-right:25px;
+	float:right;
+	clear:right;
+}
+
+#header input {
+	background-color:#57332D;
+	color:#fff;
+	font-family:'Droid Serif', serif;
+	font-size:18px;
+	line-height:30px;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border:0;
+	width:120px;
+	height:30px	
+}
+
+#header input:hover {
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	cursor: pointer; 
+}
+
+
+#welcome {
+	font-family:'PT Sans', serif;
+    	color:white;
+    	font-size: 25px;
+    	width: 450px;
+    	margin: 0px auto;
+	margin-top: 100px;
+	margin-bottom: 15px;
+}
+
+
+/******************* Navigation ************************/
+
+#breadcrumbs {
+	margin-top:100px;
+	margin-bottom:20px; 
+	color: white;
+	font-size: 20px;
+}
+
+.user_nav {
+	width: 625px;
+	margin: 0 auto;
+}
+
+
+/******************* Tool Bar ************************/
+
+#tool_bar {
+	background-color: #e9e1d5;
+	height: 250px;
+	width:200px;
+	background: #e9e1d5;
+	padding: 10px;
+	border-radius: 2px;
+	box-shadow: 1px 2px 10px 1px #2c2c2c;
+	margin-right:40px;
+	float:left;
+}
+
+
+#tool_bar ul {
+	list-style:none;
+	padding: 0px;
+	margin: 0px;
+}
+
+#tool_bar li {
+    	display: inline-block;,
+	margin-bottom: 10px;
+}
+
+#tool_bar a {
+    	font-size: 17px;
+    	color: #57332D;
+	text-decoration: none;
+}
+#tool_bar a:hover {
+	padding: 10px;
+	cursor: pointer !important;
+}
+
+
+/******************* Login Panel ************************/
+
+#login_panel {
+	background-color:#e9e1d5;
+	width: 450px;
+	padding: 10px 0px 0px 0px;
+	border-radius: 2px;
+	box-shadow: 1px 2px 10px 1px #2c2c2c;
+	margin:0 auto;
+}
+
+
+#login_panel input {
+	padding: 10px;
+	border-radius:7px;
+	border: 1px solid transparent;
+	background: rgba(255,255,255,.9);
+	display: inline-block;
+	margin: 12px;
+	width: 350px;  
+	color: #57332D;
+	font-size:15px;
+	height: 30px;
+}
+
+
+#login_panel input[type="submit"]:hover {
+	border: 1px solid #999;color:#57332D;
+	padding: 10px;
+	cursor: pointer !important;
+}
+
+
+/******************* Content ************************/
+
+#content {
+	width:98%;
+	padding-left:20px;
+}
+
+
+#file_upload {
+	margin:20px;
+}
+
+
+
+
+
+/**************** Election and Ballot Creators *******************/
+
+#ballot_creator, #election_creator {
+	overflow:hidden;
+}
+
+#ballot_creator h2, #election_creator h2 {
+	margin: 30px;
+}
+
+#ballot_creator label, #election_creator label {
+	font-size: 14px;
+}
+
+
+#ballot_creator .ballot_input, #election_creator .election_input {
+	width:100%;
+	float:left;
+	clear:left;
+	display:inline-block;
+}
+
+.ballot_input label , .election_input label{
+	display:inline-block;
+	float: none;  
+	width: auto;  
+	border: 0 none #FFF;  
+	padding-left: 10px;
+	margin-left: 20px;  
+}
+
+.ballot_input input, .ballot_input select, .election_input input, .election_input select, #election_textarea {
+	float:right;
+	width: 300px;
+	height: 25px;
+	margin-right: 50px;
+	margin-bottom: 10px;
+}
+
+
+#ballot_submit, #election_submit {
+	margin-top: 25px;
+	margin-right: 50px;
+	float: right;
+	padding: 10px;
+}
+
+
+#election_description, #election_textarea {
+	display:inline-block;
+	vertical-align:top;
+	
+}
+
+
+
+#election_textarea {
+	height: 50px;
+}
+
+/*********************** Voting Results *******************/
+table {
+	border: 0px;
+	border-collapse: collapse;
+	font-weight: 600;
+	margin: 0 auto;
+	width: 100%;
+}
+
+tr:nth-child(odd) {
+	background-color: rgba(87, 51, 45, 0.15);
+	color: inherit;
+}
+
+td,th {
+	padding-bottom: 15px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 15px;
+	text-align:center;
+}
+
+#table_header {
+	background-color: #57332D;
+	color: white;
+}
+
+table caption {
+	font-size: 20px;
+	font-weight: 700;
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+
+.faculty caption {
+	background-color: rgba(87, 51, 45, 0.15);
+	text-align: left;
+	padding-left: 25px;
+	padding-bottom: 15px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 15px;
+	font-size: 18px;
+}
+
+.faculty tr, .faculty td {
+	background-color: inherit;
+	text-align: left;
+	font-weight: 400;
+	font-size: 15px;
+}
+
+.label {
+	font-size: 15px;
+	font-weight: 600;
+}
+
+
+#statistics {
+	padding: 20px;
+	margin: 0 auto;
+}
+
+/*********************** Ballot Feed *******************/
+
+
+#ballot_feed {
+	display: inline-block;
+}
+
+.ballots_from_feed {
+	border-top: 1px solid black;
+	padding: 10px;
+	overflow: auto;
+
+}
+
+ballots_from_feed p {
+	float:left;
+	clear:right;
+	display: inline-block;
+	margin: 5px;
+	padding: 5px;
+}
+
+#ballot_actions a {
+	padding: 5px;
+	margin: 5px;
+	font-size: 14px;
+	float:left;
+	clear:right;
+	display: inline-block;
+}
+.ballot_info {
+	margin: 5px;
+	font-size: 15px;
+	float:left;
+	clear:right;
+	display: inline;
+}
+
+
+/********* Faculty List *****************/
+
+#faculty_list {
+	display: block;
+	margin:0 auto;
+	width: 625px;
+	background: #e9e1d5;
+	border-radius: 2px;
+	box-shadow: 1px 2px 10px 1px #2c2c2c;
+}
+
+#vote_thank_you, #thank_you {
+	display: block;
+	margin:0 auto;
+	width: 625px;
+	background: #e9e1d5;
+	border-radius: 2px;
+	box-shadow: 1px 2px 10px 1px #2c2c2c;
+	vertical-align:middle;
+	color: #57332D;
+	padding: 10px;
+	margin-top:200px;
+}
+
+#thank_you h2, #vote_thank_you h2 {
+	border: 0px;
+	text-align:center;
+}
+
+
+.faculty {
+	border-top: solid white 2px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	overflow: auto;
+}
+
+#faculty_list_header {
+	padding: 10px;
+}
+
+
+
+#candidate_list{
+	height:100px;
+}
+#voter_list {
+	height:50px;
+}
+
+#vote_list {
+	border-top: solid white 2px;
+}
+
+#vote_list form {
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+#vote_submit {
+	float:right;
+	margin-right: 50px;
+	padding-left:10px;
+	padding-right:10px;
+	width:100px;
+}
+
+
+
+
+
+#statistics,  #email_options, #election_creator, #ballot_creator {
+	background: #e9e1d5;
+	width: 625px;
+	border-radius: 2px;
+	box-shadow: 1px 2px 10px 1px #2c2c2c;
+	display: block;
+	margin:0 auto;
+}
+
+
+#user, #willing, #ballot_voting {
+	background: #e9e1d5;
+	width: 625px;
+	border-radius: 2px;
+	box-shadow: 1px 2px 10px 1px #2c2c2c;
+	display: block;
+	margin:0 auto;
+	overflow: auto;
+}
+
+#willing_header, #vote_header {
+	padding:10px;
+}
+
+#willing p , #ballot_voting p {
+	font-size:15px;
+}
+
+
+#willing form {
+font-size: 18px;
+}
+
+#willing input[type=radio] {
+	width:15px;
+	height:15px;
+}
+
+
+#user_info {
+	padding:10px;
+	margin-bottom: 40px;
+}
+
+#user_info p {
+	float:left;
+	clear:right;
+	display:inline-block;
+	margin:10px;
+	font-size: 15px;
+}
+
+#voting_and_willing , #vote_list{
+	border-top: solid white 2px;
+	padding: 10px;
+}
+
+#willing_ballots a , #voting_ballots a {
+	font-size: 17px;
+	color: #57332D;
+	padding: 5px;
+	margin: 5px;
+	float:left;
+	clear:right;
+	display: inline;
+}
+
+#willing_ballots {
+	float:left;
+	clear:left;
+	display:inline-block;
+	width: 100%;
+}
+
+#voting_ballots {
+	float:left;
+	clear:left;
+	display:inline-block;
+	width:100%;
+}
+
+#voting_ballots h2 {
+	border: 0px;
+}
+
+
+
+#election_header {
+	padding:10px;
+}
+
+#election_feed, #individual_election {
+	float:left;
+	clear:right;
+	display: inline-block;
+	background: #e9e1d5;
+	width: 625px;
+	border-radius: 2px;
+	box-shadow: 1px 2px 10px 1px #2c2c2c;
+}
+
+
+#election, #email_options, .ballots_from_feed,  #voting {
+	border-top: 2px solid white;
+	padding: 10px;
+	overflow: auto;
+}
+
+
+#election p, #individual_election p, #statistics p, #email_options p, .faculty p {
+	float:left;
+	clear:right;
+	display: inline-block;
+	margin: 5px;
+	padding: 5px;
+}
+
+#stat_info {
+	display: inline-block;
+	width:100%;
+}
+
+
+#election #actions, #ballot_actions {
+	float:right;
+	clear:left;
+	overflow:auto;
+}
+
+
+#election #actions a, ballot_actions a{
+	padding: 5px;
+	margin: 5px;
+	font-size: 14px;
+	float:left;
+	clear:right;
+	display: inline;
+}
+
+
+/* Footer and Signature */
+
+#footer {
+	width:100%;
+	position:fixed;
+	bottom:0;
+	left:0;
+	height: 30px;
+	background: #e9e1d5;
+	box-shadow: 6px 6px 6px 6px #2c2c2c
+}
+
+#footer p {
+	margin: 0px;
+	padding-top: 10px;
+	padding-right:15px;
+	text-align: right;
+	font-size: 11px;
+	color: #999999;
+}
+
+
+#email_options ul, #email_options li, #email_options label, #email_options textarea, #email_options select, #email_options input {
+	clear: left;
+	float: left;
+}
+
+#email_options input, #email_options li , #email_options select {
+	width: 200px;
+}
+
+#email_options ul {
+	list-style: none;
+	padding: 0px;
+	text-align: left;
+}
+
+#email_options fieldset {
+	border: 0px; 
+}
+
+#email_options input, #email_options select {
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.squaredTwo {
+  width: 28px;
+  height: 28px;
+  position: relative;
+  margin: 10px auto;
+  margin-right: 20px;
+  background: #fcfff4;
+  background: linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+  box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0,0,0,0.5);
+  label {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    position: absolute;
+    left: 4px;
+    top: 4px;
+    background: linear-gradient(top, #222 0%, #45484d 100%);
+    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.5), 0px 1px 0px rgba(255,255,255,1);
+    &:after {
+      content: '';
+      width: 9px;
+      height: 5px;
+      position: absolute;
+      top: 4px;
+      left: 4px;
+      border: 3px solid #fcfff4;
+      border-top: none;
+      border-right: none;
+      background: transparent;
+      opacity: 0;
+      transform: rotate(-45deg);
+    }
+    &:hover::after {
+      opacity: 0.3;
+    }
+  }
+  input[type=checkbox] {
+    visibility: hidden;
+    &:checked + label:after {
+      opacity: 1;
+    }    
+  }
+}
+/* end .squaredTwo */
+
